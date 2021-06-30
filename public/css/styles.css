@@ -1,5 +1,13 @@
 body {
-  color: #333333;
+  /* background-image: url("https://uploads-ssl.webflow.com/60a679e14d650f78433d8a27/60d3af237fd0c9f8cd21e390_wallpaper-3_4-3.png");
+ */
+
+  background: linear-gradient(rgba(27, 27, 27, 0.5), rgba(15, 14, 14, 0.5)),
+    url("https://uploads-ssl.webflow.com/60a679e14d650f78433d8a27/60d3af237fd0c9f8cd21e390_wallpaper-3_4-3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  color: #f1ffff;
   font-family: Arial, Helvetica, sans-serif;
   max-width: 650px;
   margin: 0 auto;
@@ -41,14 +49,27 @@ header a {
 }
 
 input {
-  border: 1px solid #cccccc;
+  border: 2px solid #3056ff;
   padding: 8px;
+  border-width: 1px;
+  border-radius: 0.375rem /* 6px */;
+  padding-top: 0.75rem /* 12px */;
+  padding-bottom: 0.75rem /* 12px */;
+}
+input:hover {
+  border: 1px solid #ff951b;
 }
 
 button {
   cursor: pointer;
-  border: 1px solid #888888;
-  background-color: #888888;
+  border: 2px solid #037091;
+  background-color: #037091;
+  border-radius: 0.375rem /* 6px */;
   color: white;
   padding: 8px;
+}
+
+button:hover {
+  background-color: #ffb056;
+  border: 1px solid #ff951b;
 }
